@@ -1,0 +1,444 @@
+.profile-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  color: #222;
+}
+
+/* Header */
+
+.profile-header {
+  height: 65px;
+  background: #075e54;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  gap: 18px;
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.back-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Profile section */
+
+.profile-section {
+  text-align: center;
+  padding: 35px 20px 25px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.large-profile-avatar {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #075e54;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.large-profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-section h2 {
+  margin: 10px 0 5px;
+}
+
+.profile-section p {
+  margin: 0;
+  color: #777;
+}
+
+/* Change DP */
+
+.change-profile-btn {
+  display: inline-block;
+  background: #075e54;
+  color: white;
+  padding: 9px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.remove-profile-btn {
+  display: block;
+  margin: 5px auto 10px;
+  border: none;
+  background: transparent;
+  color: #dc2626;
+  cursor: pointer;
+}
+
+/* Settings */
+
+.settings-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 20px 30px;
+  box-sizing: border-box;
+}
+
+.settings-container h3 {
+  font-size: 14px;
+  color: #075e54;
+  margin: 22px 5px 8px;
+  text-transform: uppercase;
+}
+
+/* Setting item */
+
+.setting-item {
+  width: 100%;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 15px;
+  margin-bottom: 6px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.setting-item:hover {
+  background: #eeeeee;
+}
+
+.setting-item > span {
+  width: 35px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.setting-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.setting-item strong {
+  font-size: 15px;
+  color: #222;
+}
+
+.setting-item small {
+  color: #777;
+  font-size: 12px;
+}
+
+/* Logout */
+
+.logout-setting-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #dc2626;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logout-setting-btn:hover {
+  background: #b91c1c;
+}
+
+/* Dark Mode */
+
+.profile-page.dark-mode {
+  background: #111827;
+  color: white;
+}
+
+.profile-page.dark-mode .profile-section {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.profile-page.dark-mode .setting-item {
+  background: #1f2937;
+  color: white;
+}
+
+.profile-page.dark-mode .setting-item:hover {
+  background: #374151;
+}
+
+.profile-page.dark-mode .setting-item strong {
+  color: white;
+}
+
+.profile-page.dark-mode .setting-item small {
+  color: #9ca3af;
+}
+
+.profile-page.dark-mode .profile-section p {
+  color: #9ca3af;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .profile-header {
+    padding: 0 15px;
+  }
+
+  .profile-section {
+    padding: 25px 15px;
+  }
+
+  .large-profile-avatar {
+    width: 105px;
+    height: 105px;
+  }
+
+  .settings-container {
+    padding: 0 12px 25px;
+  }
+
+}
+/* =========================
+   EDIT PROFILE BOX
+========================= */
+
+.edit-profile-box,
+.change-password-box {
+  background: white;
+  padding: 20px;
+  margin: 10px 0 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.edit-profile-box h3,
+.change-password-box h3 {
+  margin-top: 0;
+  color: #075e54;
+  text-transform: none;
+  font-size: 18px;
+}
+
+.edit-profile-box input,
+.change-password-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px;
+}
+
+.edit-profile-box input:focus,
+.change-password-box input:focus {
+  border-color: #075e54;
+}
+
+/* Buttons */
+
+.edit-profile-buttons,
+.password-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.edit-profile-buttons button,
+.password-buttons button {
+  border: none;
+  padding: 9px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.edit-profile-buttons button:first-child,
+.password-buttons button:first-child {
+  background: #e5e7eb;
+  color: #333;
+}
+
+.edit-profile-buttons button:last-child,
+.password-buttons button:last-child {
+  background: #075e54;
+  color: white;
+}
+
+.edit-profile-buttons button:hover,
+.password-buttons button:hover {
+  opacity: 0.9;
+}
+
+
+/* =========================
+   DARK MODE BOXES
+========================= */
+
+.profile-page.dark-mode .edit-profile-box,
+.profile-page.dark-mode .change-password-box {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.profile-page.dark-mode .edit-profile-box input,
+.profile-page.dark-mode .change-password-box input {
+  background: #111827;
+  color: white;
+  border-color: #4b5563;
+}
+
+.profile-page.dark-mode .edit-profile-box input::placeholder,
+.profile-page.dark-mode .change-password-box input::placeholder {
+  color: #9ca3af;
+}
+
+.profile-page.dark-mode .edit-profile-box h3,
+.profile-page.dark-mode .change-password-box h3 {
+  color: #34d399;
+}
+/* =========================
+   CHAT SETTINGS
+========================= */
+
+.chat-settings-box {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px 20px 30px;
+}
+
+.chat-setting-option {
+  width: 100%;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.chat-setting-option:hover {
+  background: #eeeeee;
+}
+
+.chat-setting-option > span {
+  width: 35px;
+  font-size: 22px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.chat-setting-option > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.chat-setting-option strong {
+  font-size: 15px;
+  color: #222;
+}
+
+.chat-setting-option small {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Select box */
+
+.chat-setting-option select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Color picker */
+
+.chat-setting-option input[type="color"] {
+  width: 48px;
+  height: 35px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Chat settings heading */
+
+.chat-settings-title {
+  text-align: center;
+  color: #075e54;
+  font-size: 16px;
+  margin: 25px 0 12px;
+}
+
+/* Dark mode */
+
+.profile-page.dark-mode .chat-setting-option {
+  background: #1f2937;
+}
+
+.profile-page.dark-mode .chat-setting-option:hover {
+  background: #374151;
+}
+
+.profile-page.dark-mode .chat-setting-option strong {
+  color: white;
+}
+
+.profile-page.dark-mode .chat-setting-option small {
+  color: #9ca3af;
+}
+
+.profile-page.dark-mode .chat-setting-option select {
+  background: #111827;
+  color: white;
+  border-color: #4b5563;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .chat-settings-box {
+    padding: 10px 12px 25px;
+  }
+
+  .chat-setting-option {
+    min-height: 60px;
+  }
+}
