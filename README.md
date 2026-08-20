@@ -572,33 +572,24 @@ You can add screenshots of the project here.
 
 ### 🔐 Login
 
-```markdown
-![Login Page](screenshots/login.png)
-```
+<img width="1763" height="844" alt="Screenshot_20-8-2026_211320_localhost" src="https://github.com/user-attachments/assets/45872afe-c609-4926-b610-2cb07f3b13ec" />
 
-### 📝 Signup
 
-```markdown
-![Signup Page](screenshots/signup.png)
-```
+### 📝 Signup And Forgot Password
+
+<img width="1763" height="844" alt="Screenshot_20-8-2026_211334_localhost" src="https://github.com/user-attachments/assets/ae67ee07-7f76-4b61-8ec5-ac2b99aa400f" />
+<img width="1763" height="844" alt="Screenshot_20-8-2026_211349_localhost" src="https://github.com/user-attachments/assets/62187831-ebda-49b7-91fe-f554a32648b5" />
+
 
 ### 💬 Chat
 
-```markdown
-![Chat Page](screenshots/chat.png)
-```
+<img width="1763" height="844" alt="Screenshot_20-8-2026_21163_localhost" src="https://github.com/user-attachments/assets/3b832aae-d904-46c3-adad-68c7107cd262" />
 
-### 👤 Profile
 
-```markdown
-![Profile Page](screenshots/profile.png)
-```
+### 👤 Profile & ⚙️ Settings
+<img width="1763" height="1667" alt="Screenshot_20-8-2026_211528_localhost" src="https://github.com/user-attachments/assets/7f072746-1738-447d-b15d-3a29023b990c" />
 
-### ⚙️ Settings
 
-```markdown
-![Settings](screenshots/settings.png)
-```
 
 ---
 
